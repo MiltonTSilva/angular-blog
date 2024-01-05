@@ -1,0 +1,42 @@
+.conteiner {
+  align-items: center;
+  border: 1px solid #fff;
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  margin-top: 25px;
+  width: 100vw;
+}
+
+.conteiner > h6 {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.conteiner > h6 > a {
+  background-color: rgb(120, 139, 224);
+  color: #fff;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.content-cover > img {
+  border: 5px solid #727171;
+  border-radius: 5px;
+  height: 300px;
+  margin-top: 15px;
+  min-width: 500px;
+  width: 500px;
+}
+
+.content-description {
+  border: 1px solid #ddd7d7;
+  border-radius: 15px;
+  margin-top: 15px;
+  padding: 1rem;
+  width: 80%;
+}
+.content-description > p {
+  color: gray;
+  text-align: justify;
+}

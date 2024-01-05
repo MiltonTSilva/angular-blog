@@ -1,0 +1,25 @@
+<div class="conteiner">
+  <div class="title"><app-title></app-title></div>
+  <div class="card">
+    <div class="bigcard">
+      <app-big-card
+        *ngFor="let item of listBigDataFake"
+        id="{{ item.id }}"
+        photoCover="{{ item.photoCover }}"
+        cardTitle="{{ item.title }}"
+        cardDescription="{{ item.description }}"
+      ></app-big-card>
+    </div>
+
+    <div class="smallcard">
+      <!--       <div *ngIf="verificaId(item.id)"></div> -->
+      <app-small-card
+        *ngFor="let item of listSmallDataFake"
+        id="{{ item.id }}"
+        photoCover="{{ item.photoCover }}"
+        cardTitle="{{ item.title }}"
+        cardDescription="{{ item.description }}"
+      ></app-small-card>
+    </div>
+  </div>
+</div>

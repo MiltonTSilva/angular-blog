@@ -1,1 +1,10 @@
-<p>big-card works!</p>
+<div class="conteiner">
+  <img src="{{ photoCover }}" alt="" />
+
+  <h2>
+    <a [routerLink]="['content', id]"> {{ cardTitle }}</a>
+  </h2>
+  <h3>
+    <a [routerLink]="['content', id]"> {{ cardDescription }}</a>
+  </h3>
+</div>
